@@ -24,6 +24,16 @@ h1, h2 {
     text-transform: uppercase;
 }
 
+.hidden {
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.show {
+    opacity: 1;
+    transition: 0.2s;
+}
+
 /*CONTAINER*/
 .container {
     width: 60%;
@@ -181,6 +191,7 @@ th {
 }
 
 td {
+
     color: black;
     padding-right: 40px;
     padding-top: 50px;
