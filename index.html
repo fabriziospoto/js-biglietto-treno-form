@@ -11,7 +11,7 @@
             <!-- PARTE H1 -->
             <h1>Calcola IL prezzo del tuo biglietto</h1>
             <!-- PRIMA BOX -->
-            <div class="white-box border-r box-height">
+            <div class="white-box border-r">
                 <div class="first-part">
                     <div class="titles">
                         <p>Nome e cognome</p>
@@ -38,11 +38,34 @@
             <!-- PARTE H2 -->
             <h2>Il tuo biglietto</h2>
             <!-- BOX BIGLIETTO -->
-            <div class="white-box box-height">
-
+            <div class="white-box clearfix">
+                <div class="passeggeri">
+                    <h4>Dettaglio passeggeri</h4>
+                </div>
+                <div class="details clearfix">
+                    <div class="name">
+                        <h4>Nome passeggero</h4>
+                        <h4 id="nome-passeggero"></h4>
+                    </div>
+                    <div class="tables">
+                        <table>
+                            <tr>
+                                <th id="offer">Offerta</th>
+                                <th>Carrozza</th>
+                                <th>Codice CP</th>
+                                <th>Costo Biglietto</th>
+                            </tr>
+                            <tr>
+                                <td id="offerta"></td>
+                                <td id="carrozza"></td>
+                                <td id="ccp"></td>
+                                <td id="costo"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
-
 
         <script src="js/script.js" charset="utf-8"></script>
     </body>
